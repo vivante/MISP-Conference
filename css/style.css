@@ -635,7 +635,7 @@ div#achivement {
 
 #event {
     min-height: 550px;
-    background: #fff;
+    background: url(../img/temp10.jpg) no-repeat scroll top center / cover;
     color: #000;
     padding: 80px 0px;
 }
@@ -707,7 +707,7 @@ div#achivement {
     overflow: hidden;
 }
 .event_news_text h4 {
-    color: #454444;
+    color: #e6e6e6;
     font-size: 18px;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
@@ -715,7 +715,7 @@ div#achivement {
 #event .event_news_text p {
     padding-top: 10px;
     font-size: 14px;
-    color: #646464;
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
 #event .event_news_img {
@@ -756,6 +756,8 @@ div#achivement {
 #blog {
     min-height: 500px;
     padding: 80px 0;
+    background: #fff;
+
 }
 #blog p {
     display: inline-block;
@@ -777,7 +779,7 @@ div#achivement {
     font-family: 'Open Sans', sans-serif;
 }
 #blog .single_blog_item {
-    border: 1px solid #d1d3d1;
+    border: 2px solid #d1d3d1;
 }
 #blog .blog_content {
     padding: 15px;
