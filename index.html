@@ -30,6 +30,10 @@
         <!--Responsive Framework-->
         <link href="css/responsive.css" rel="stylesheet">
 
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -97,11 +101,12 @@
                                     <li><a href="#blog">about</a></li>
                                     <li><a href="#event">Conference Topics</a></li>
                                     <li><a href="#testimonial">Speakers</a></li>
+                                    <!--<li><a href="#welcome">about</a></li>-->
                                     <li><a href="#volunteer">Register</a></li>
                                     <li><a href="#timeline">Timeline</a></li>
                                     <li><a href="#welcome">Committee</a></li>
-                                    <li><a href="#blog">Venue</a></li>
-                                    <li><a href="#market">Sponsors</a></li>
+                                    <li><a href="#market">Sponsors</a></li>                                    
+                                    <li><a href="#contact">Venue</a></li>
                                     <li><a href="#contact">contact us</a></li>
                                 </ul>
                             </div>
@@ -307,7 +312,7 @@
                                     <img src="img/tree_cut_3.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
-                                    <a href="#"><h4>Human Machine Interaction...</h4></a>
+                                    <a href="#"><h4>Machine Learning</h4></a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, veniam.</p>
                                 </div>
                             </div>
@@ -329,7 +334,7 @@
                                     <img src="img/tree_cut_3.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
-                                    <a href="#"><h4>Neural Networs</h4></a>
+                                    <a href="#"><h4>Human machine Interaction</h4></a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, veniam.</p>
                                 </div>
                             </div>
@@ -340,7 +345,7 @@
                                     <img src="img/tree_cut_4.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
-                                    <a href="#"><h4>Machine Learning</h4></a>
+                                    <a href="#"><h4>Neural Network</h4></a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, veniam.</p>
                                 </div>
                             </div>
@@ -351,7 +356,7 @@
                                     <img src="img/tree_cut_3.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
-                                    <a href="#"><h4>Neural Networks</h4></a>
+                                    <a href="#"><h4>Signal Processing</h4></a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, veniam.</p>
                                 </div>
                             </div>
@@ -416,7 +421,7 @@
                                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
                                                         </div>
                                                         <div class="testimonial_author">
-                                                            <h5>Professor Grey Matter</h5>
+                                                            <h5>Professor Dummy</h5>
                                                             <p>Dartmouth College</p>
                                                         </div>
                                                     </div>
@@ -492,6 +497,54 @@
             <!--End of container-->
         </section>
         <!--end of volunteer-->
+
+        <div class="container" id="timeline">
+            <div class="timeline_header text-center">
+                <h2>  <br /> Important Dates <br />  </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline5">
+                        <div class="timeline">
+                            <div class="timeline-icon"><span class="year">22/09/18</span></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Paper submissions date</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-icon"><span class="year">15/10/18</span></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Notification of acceptance</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-icon"><span class="year">15/10/18</span></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Camera-ready papers</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-icon"><span class="year">15/10/18</span></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Registration</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!--Start of welcome section-->
         <section id="welcome">
@@ -971,10 +1024,10 @@
                             </div>
                             <div class="office_location">
                                 <div class="address">
-                                    <i class="fa fa-map-marker"><span>IIIT Road, Jhalwa, Allahabad - 211012</span></i>
+                                    <i class="fa fa-map-marker"><span>IIIT-A Road, Jhalwa, Allahabad - 211012</span></i>
                                 </div>
                                 <div class="phone">
-                                    <i class="fa fa-phone"><span>+0522-123456</span></i>
+                                    <i class="fa fa-phone"><span>+ 0522-123456</span></i>
                                 </div>
                                 <div class="email">
                                     <i class="fa fa-envelope"><span>email@iiita.ac.in</span></i>
