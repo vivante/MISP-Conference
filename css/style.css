@@ -366,7 +366,7 @@ input: -webkit-autofill:focus {
 /*Welcome Section*/
 #welcome {
     min-height: 350px;
-    background: #fff;
+    background: #222222;
     padding: 80px 0;
 }
 .wel_header {
@@ -384,7 +384,7 @@ input: -webkit-autofill:focus {
     font-weight: 700;
     padding-bottom: 25px;
     font-family: 'Roboto Slab', serif !important;
-    color: #222222;
+    color: #3377ff;
 }
 .wel_header p {
     font-size: 16px;
@@ -397,10 +397,11 @@ input: -webkit-autofill:focus {
 #welcome .welcome_icon {
     width: 100px;
     height: 100px;
+    color : #bfbfbf;
     border-radius: 50%;
     text-align: center;
     margin: 0 auto;
-    border: 1px solid #C4C4C4;
+    border: 2px solid #bfbfbf;
     transition: .7s;
 }
 #welcome .welcome_icon i {
@@ -413,24 +414,24 @@ input: -webkit-autofill:focus {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    color: #393939;
+    color: #d9d9d9;
     transition: 0.7s;
     font-family: 'Roboto Slab', serif;
 }
 #welcome .item_list p {
     font-size: 14px;
-    color: #646464;
+    color: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
 }
 #welcome .item_list:hover .welcome_icon {
-    background: #43a906;
+    background: #f2f2f2;
     cursor: pointer;
 }
 #welcome .item_list:hover .welcome_icon i {
-    color: #fff;
+    color: #262626;
 }
 #welcome .item_list:hover h4 {
-    color: #43a906;
+    color: #3377ff;
     cursor: pointer;
 }
 
@@ -561,19 +562,19 @@ div#achivement {
 .achivment_padding {
     padding: 80px 0;
 }
-/*#counter {
+#counter {
     min-height: 440px;
     background: #bdbebd;
     border-bottom: 1px solid #8c8e8c;
-}*/
-/*.counter_header {
+}
+.counter_header {
     padding-top: 80px;
     text-align: center;
     color: #fff;
-}*/
-section#counter {
+}
+#counter {
+    color: #fff;    
     background: url(../img/img1.jpg) no-repeat scroll top center / cover;
-    color: #fff;
 }
 .counter_img_overlay {
     position: relative;
