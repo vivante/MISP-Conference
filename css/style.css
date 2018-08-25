@@ -16,6 +16,7 @@ Version: 1.2
 7. Portfolio,
 8. Achivment,
 9. Event,
+
 10. Testimonial,
 11. Latest Blog,
 12. Purches,
@@ -55,7 +56,10 @@ font-family: 'Roboto', sans-serif;
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 
 /*UNIVERSAL CODE*/
+#slider img{
 
+    height:860px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -276,9 +280,6 @@ input: -webkit-autofill:focus {
 
 /*Slider*/
 
-#slider {
-    min-height: 590px;
-}
 #slider .slider_text {
     padding-bottom: 13%;
 }
@@ -367,7 +368,7 @@ input: -webkit-autofill:focus {
 #welcome {
     min-height: 350px;
     background: #222222;
-    padding: 80px 0;
+    padding: 35px 0;
 }
 .wel_header {
     text-align: center;
@@ -638,7 +639,7 @@ div#achivement {
     min-height: 550px;
     background: url(../img/temp10.jpg) no-repeat scroll top center / cover;
     color: #000;
-    padding: 80px 0px;
+    padding: 35px 0px;
 }
 #event .event_header {
     padding-bottom: 50px;
@@ -731,7 +732,7 @@ div#achivement {
     /*border-bottom: 2px solid #bcbaba;*/
 }
 .testimonial_overlay {
-    padding: 80px 0;
+    padding: 35px 0;
     position: relative;
     width: 100%;
     height: 100%;
@@ -757,7 +758,7 @@ div#achivement {
 
 #blog {
     min-height: 500px;
-    padding: 80px 0;
+    padding: 35px 0;
     background: #fff;
 
 }
