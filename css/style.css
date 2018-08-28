@@ -366,7 +366,7 @@ input: -webkit-autofill:focus {
 /*Welcome Section*/
 #welcome {
     min-height: 350px;
-    background: #222222;
+    background: #E9E7DA;
     padding: 35px 0;
 }
 .wel_header {
@@ -384,7 +384,7 @@ input: -webkit-autofill:focus {
     font-weight: 700;
     padding-bottom: 25px;
     font-family: 'Roboto Slab', serif !important;
-    color: #3377ff;
+    color: #02C8A7;
 }
 .wel_header p {
     font-size: 16px;
@@ -397,11 +397,11 @@ input: -webkit-autofill:focus {
 #welcome .welcome_icon {
     width: 100px;
     height: 100px;
-    color : #bfbfbf;
+    color : #07889B;
     border-radius: 50%;
     text-align: center;
     margin: 0 auto;
-    border: 2px solid #bfbfbf;
+    border: 2px solid #000;
     transition: .7s;
 }
 #welcome .welcome_icon i {
@@ -414,24 +414,24 @@ input: -webkit-autofill:focus {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    color: #d9d9d9;
+    color: #0F1626;
     transition: 0.7s;
     font-family: 'Roboto Slab', serif;
 }
 #welcome .item_list p {
     font-size: 14px;
-    color: #f2f2f2;
+    color: #0B3C5D;
     font-family: 'Open Sans', sans-serif;
 }
 #welcome .item_list:hover .welcome_icon {
-    background: #f2f2f2;
+    background: #99CED4;
     cursor: pointer;
 }
 #welcome .item_list:hover .welcome_icon i {
-    color: #262626;
+    color: #F2F2F2;
 }
 #welcome .item_list:hover h4 {
-    color: #3377ff;
+    color: #286DA8;
     cursor: pointer;
 }
 
@@ -439,23 +439,23 @@ input: -webkit-autofill:focus {
 
 #volunteer {
     min-height: 700px;
-    background: #262626;
+    background: #D9D9D9;
     /*border-bottom: 400px solid #262626;*/
 }
 #volunteer .volunteer_content h3 {
     font-size: 45px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #fff;
+    color: #4484CE;
     padding-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
 }
 #volunteer .volunteer_content h3 span {
-    color: #43a906;
+    color: #062F4F;
 }
 #volunteer .volunteer_content p {
     font-size: 14px;
-    color: #fff;
+    color: #020;
     font-family: 'Open Sans', sans-serif;
 }
 #volunteer .join_us {
@@ -465,7 +465,7 @@ input: -webkit-autofill:focus {
     padding: 80px 0;
 }
 #volunteer .join_us a.vol_cust_btn {
-    background: #43a906;
+    background: #4484CE;
     color: #fff;
     padding: 8px 50px;
     border: 1px solid #43a906;
@@ -475,6 +475,48 @@ input: -webkit-autofill:focus {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*Info Registration*/
+
+.service {
+  /*background: #43a906;*/
+  background: #FFF;
+  padding: 40px 20px 20px 20px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.service:hover, .service:focus, .service:active {
+  -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
+}
+.service span {
+  margin-bottom: 30px;
+  display: block;
+  width: 100%;
+}
+.service span i {
+  font-size: 40px;
+  color: #37a000 !important;
+}
+.service h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #328CC1;
+  font-family: 'Open Sans', sans-serif;
+}
+.service p {
+  font-size: 16px;
+  color: #010;
+  font-family: 'Lato', sans-serif;
+}
+
 
 /*Portfolio*/
 
