@@ -33,3 +33,7 @@
 
 
 }(jQuery));
+
+jQuery('#myGroup').click( function(e) {
+    jQuery('.collapse').collapse('hide');
+});
